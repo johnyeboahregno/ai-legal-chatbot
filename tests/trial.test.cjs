@@ -1,5 +1,5 @@
-// Browser tests for trial/index.html using the pre-installed Playwright Chromium.
-// Run: node trial/tests/trial.test.cjs
+// Browser tests for index.html using the pre-installed Playwright Chromium.
+// Run: node tests/trial.test.cjs
 // The page is opened from disk, so there is no `window.claude`: this exercises the
 // deterministic fallback path, triage, conflict gating, booking and handover.
 const { chromium } = require('playwright');
